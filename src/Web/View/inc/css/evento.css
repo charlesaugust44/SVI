@@ -1,0 +1,98 @@
+.row div {
+    padding: 0;
+}
+
+.eventoInfo, .eventoBanner {
+    width: 100%;
+}
+
+.container .row .col {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.boxEvento {
+    border-top: 1px solid #cccccc88;
+    box-shadow: 5px 5px 5px #cccccc88;
+    width: 98%;
+    margin: auto;
+    background: #fff;
+}
+
+.boxEvento:hover {
+    text-decoration: underline;
+}
+
+.eventoBanner {
+    height: 175px;
+    width: 100%;
+}
+
+.eventoInfo {
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #cccccc88;
+}
+
+.eventoPreco {
+    border: 1px solid #cccccc88;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, .80);
+    font-size: 12px;
+    line-height: 18px;
+    color: #282C35;
+    box-sizing: border-box;
+    padding: 2px 10px;
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+.eventoInfo time {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    color: #585c61;
+    font-size: 14px;
+    line-height: 20px;
+    height: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 0 0;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.eventoInfo small {
+    width: 400px;
+    margin-left: 15px;
+    white-space: nowrap;
+    color: #666A73;
+    font-size: 12px;
+    line-height: 18px;
+    height: 2em;
+    padding: 5px 0 0;
+}
+
+.eventoInfo span {
+    margin-left: 15px;
+    color: #282C35;
+    font-size: 15px;
+    line-height: 19px;
+    max-height: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 0;
+    height: 2.5em;
+}
+
+.eventoEndereco {
+
+}
+
+@media (max-width: 810px) {
+    .boxEvento {
+        width: 350px;
+    }
+}
